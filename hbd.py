@@ -83,7 +83,7 @@ try:
     pcode()
     Thread(target = pAudio).start()
     Thread(target = pprint, args=(art.mainArt,speed)).start()
-    input()
+    input(colored('\n[-] Nala Illana adjust paniko 😅','blue'))
 
 except KeyboardInterrupt:
     print(colored('\n[-] Nala Illana adjust paniko 😅','red'))
