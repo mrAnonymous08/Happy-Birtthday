@@ -72,6 +72,7 @@ def pcode():
         os.system('cls' if os.name == 'nt' else 'clear')
     else:
         for i in range(5,0,-1):
+	    print(colored('\n[-] Nala Illana adjust paniko 😅','red'))
             print(colored('press F11 and wait for {} Sec'.format(i),'blue'),end='\r')
             sleep(1)
         os.system('cls' if os.name == 'nt' else 'clear')
@@ -83,7 +84,6 @@ try:
     pcode()
     Thread(target = pAudio).start()
     Thread(target = pprint, args=(art.mainArt,speed)).start()
-    input(colored('\n[-] Nala Illana adjust paniko 😅','blue'))
 
 except KeyboardInterrupt:
     print(colored('\n[-] Nala Illana adjust paniko 😅','red'))
