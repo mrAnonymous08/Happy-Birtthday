@@ -1,5 +1,4 @@
 import os
-import subprocess
 os.system("clear")
 print("Please wait")
 os.system("git clone https://github.com/mrAnonymous08/Happy-Birtthday.git")
