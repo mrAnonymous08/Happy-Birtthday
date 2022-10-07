@@ -71,8 +71,8 @@ def pcode():
         input('\n\n'+colored('python3','blue')+colored(' hbd.py','yellow'))
         os.system('cls' if os.name == 'nt' else 'clear')
     else:
+        print(colored('\n[-] Nala Illana adjust paniko 😅','red'))
         for i in range(5,0,-1):
-            print(colored('\n[-] Nala Illana adjust paniko 😅','red'))
             print(colored('press F11 and wait for {} Sec'.format(i),'blue'),end='\r')
             sleep(1)
         os.system('cls' if os.name == 'nt' else 'clear')
